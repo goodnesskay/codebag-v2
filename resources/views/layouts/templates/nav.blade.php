@@ -31,7 +31,7 @@
                 <li><a href="{{url('contact')}}" class="color-light">Contact</a>
                 </li>
             </ul>
-            <a class="button button-sm button-pasific hover-ripple-out mt10 mr10" href="">Pitch</a>
+            <a class="button button-sm button-pasific hover-ripple-out mt10 mr10" href="{{ url('pitch-your-idea') }}">Pitch</a>
         </div>
     </div>
 </nav>

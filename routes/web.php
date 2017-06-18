@@ -23,6 +23,11 @@ Route::group(['middleware' => ['web']], function () {
         'as'=>'/'
     ]);
 
+    Route::get('/pitch-your-idea', [
+        'uses'=>'FrontEndController@pitch',
+        'as'=>'/pitch-your-idea'
+    ]);
+
     //contact
     Route::get('/contact',[
         'uses'=>'FrontEndController@contact',

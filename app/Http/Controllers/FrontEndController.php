@@ -11,6 +11,11 @@ class FrontEndController extends Controller
         return view('landing');
     }
 
+    public function pitchYourIdea()
+    {
+        return view('pitch-your-idea');
+    }
+
     public function contact()
     {
         return view('contact');
