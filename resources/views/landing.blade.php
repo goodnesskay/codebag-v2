@@ -2,10 +2,6 @@
 
 @section('content')
 
-
-
-        <!-- Intro Area
-===================================== -->
 <header class="intro pb100" style="background:url(public/assets/img/bg/img-bg-29.pn) 95% 100% no-repeat #e8424a; background-attachment:fixed;">
     <div class="intro-body">
         <div class="container-fluid">
@@ -24,7 +20,7 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <img src="{{ asset('public/assets/img/bg/img-bg-29.png') }}" style="margin-top:15%" class="img-responsive" alt="">
+                    <img src="{{ asset('assets/img/bg/img-bg-29.png') }}" style="margin-top:15%" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
@@ -56,7 +52,7 @@
             <!-- item one start -->
             <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="100">
                 <div class="content-box content-box-center">
-                    <img src="{{ asset('public/assets/img/flat-icon/briefcase.svg')}}" alt="svg icon" class="img-responsive icon-svg">
+                    <img src="{{ asset('assets/img/flat-icon/briefcase.svg')}}" alt="svg icon" class="img-responsive icon-svg">
                     <h4 class="color-light">Solve Problems</h4>
                     <p class="color-light alpha6">We are committed to solving problems through codes.</p>
 
@@ -67,7 +63,7 @@
             <!-- item two start -->
             <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="100">
                 <div class="content-box content-box-center">
-                    <img src="{{ asset('public/assets/img/flat-icon/close_up_mode.svg') }}" alt="svg icon" class="img-responsive icon-svg">
+                    <img src="{{ asset('assets/img/flat-icon/close_up_mode.svg') }}" alt="svg icon" class="img-responsive icon-svg">
                     <h4 class="color-light">Building</h4>
                     <p class="color-light alpha6">We love to build stuffs that makes people happy.</p>
 
@@ -78,7 +74,7 @@
             <!-- item three start -->
             <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="100">
                 <div class="content-box content-box-center">
-                    <img src="{{ asset('public/assets/img/flat-icon/engineering.svg') }}" alt="svg icon" class="img-responsive icon-svg">
+                    <img src="{{ asset('assets/img/flat-icon/engineering.svg') }}" alt="svg icon" class="img-responsive icon-svg">
                     <h4 class="color-light">Innovation</h4>
                     <p class="color-light alpha6">Building an innovative technology community is our goal.</p>
 
@@ -116,7 +112,7 @@
         <!-- service one start -->
         <div class="row mt75">
             <div class="col-md-6 animated" data-animation="fadeInLeft" data-animation-delay="100">
-                <img src="{{ asset('public/assets/img/other/img-other-3.png') }}" alt="website service" class="img-responsive">
+                <img src="{{ asset('assets/img/other/img-other-3.png') }}" alt="website service" class="img-responsive">
             </div>
             <div class="col-md-5 animated" data-animation="fadeIn" data-animation-delay="100">
 
@@ -145,7 +141,7 @@
         <!-- service two start -->
         <div class="row mt100">
             <div class="col-md-6 col-md-push-6 animated" data-animation="fadeInRight" data-animation-delay="100">
-                <img src="{{ asset('public/assets/img/other/img-other-4.png') }}" alt="website service" class="img-responsive">
+                <img src="{{ asset('assets/img/other/img-other-4.png') }}" alt="website service" class="img-responsive">
             </div>
             <div class="col-md-5 col-md-pull-5">
 
@@ -175,7 +171,7 @@
         <!-- service three start -->
         <div class="row mt75">
             <div class="col-md-6 animated" data-animation="fadeInLeft" data-animation-delay="100">
-                <img src="{{ asset('public/assets/img/other/img-other-5.jpg') }}" alt="website service" class="img-responsive">
+                <img src="{{ asset('assets/img/other/img-other-5.jpg') }}" alt="website service" class="img-responsive">
             </div>
             <div class="col-md-5">
 
@@ -272,22 +268,22 @@
         <div class="row">
 
             <div class="col-md-2 col-sm-3 col-xs-4">
-                <img src="{{ asset('public/assets/img/brand/paypal-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="350">
+                <img src="{{ asset('assets/img/brand/paypal-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="350">
             </div>
             <div class="col-md-2 col-sm-3 col-xs-4">
-                <img src="{{ asset('public/assets/img/brand/evernote-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="300">
+                <img src="{{ asset('assets/img/brand/evernote-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="300">
             </div>
             <div class="col-md-2 col-sm-3 col-xs-4">
-                <img src="{{ asset('public/assets/img/brand/microsoft-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="250">
+                <img src="{{ asset('assets/img/brand/microsoft-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="250">
             </div>
             <div class="col-md-2 col-sm-3 col-xs-4">
-                <img src="{{ asset('public/assets/img/brand/smashing-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="200">
+                <img src="{{ asset('assets/img/brand/smashing-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="200">
             </div>
             <div class="col-md-2 col-sm-3 col-xs-4">
-                <img src="{{ asset('public/assets/img/brand/guardian-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="150">
+                <img src="{{ asset('assets/img/brand/guardian-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="150">
             </div>
             <div class="col-md-2 col-sm-3 col-xs-4">
-                <img src="{{ asset('public/assets/img/brand/linkedin-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="100">
+                <img src="{{ asset('assets/img/brand/linkedin-gray.png')}}" alt="client logo" class="img-responsive center-block animated" data-animation="fadeIn" data-animation-delay="100">
             </div>
 
         </div>
