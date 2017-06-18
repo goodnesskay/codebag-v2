@@ -11,10 +11,34 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::group(['middleware' => ['web']], function () {
+
+    Auth::routes();
+
+    Route::get('/home', 'HomeController@index');
+
+    Route::get('/', function () {
+        return view('landing');
+    });
+
+    //faq
+    Route::get('/faq', function () {
+        return view('faq');
+    });
+
+    //404 page
+    Route::get('/404', function () {
+        return view('404');
+    });
+
+    //contact
+    Route::get('/contact', function () {
+        return view('contact');
+    });
+
+
+
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

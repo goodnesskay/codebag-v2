@@ -5,7 +5,7 @@
 
             <div class="col-md-2 col-xs-12 mb25">
                 <div class="navbar-brand-footer center-block">{{ config('app.name') }}</div>
-                <div class="copyright center-block">&copy; <?php echo date('Y'); ?>. Codebag Inc &trade;</div>
+                <div class="copyright center-block">&copy; <?php echo date('Y'); ?>.{{ config('app.name') }} &trade;</div>
             </div>
 
             <div class="col-md-8 col-xs-12 text-center">
@@ -56,29 +56,29 @@
 
 <!-- JQuery Core
 =====================================-->
-<script src="{{ asset('public/assets/js/core/jquery.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/core/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/js/core/bootstrap.min.js') }}"></script>
 
 <!-- Magnific Popup
 =====================================-->
-<script src="{{ asset('public/assets/js/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/magnific-popup/magnific-popup-zoom-gallery.js') }}"></script>
+<script src="{{ asset('assets/js/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('assets/js/magnific-popup/magnific-popup-zoom-gallery.js') }}"></script>
 
 <!-- Progress Bars
 =====================================-->
-<script src="{{ asset('public/assets/js/progress-bar/bootstrap-progressbar.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/progress-bar/bootstrap-progressbar-main.js') }}"></script>
+<script src="{{ asset('assets/js/progress-bar/bootstrap-progressbar.min.js') }}"></script>
+<script src="{{ asset('assets/js/progress-bar/bootstrap-progressbar-main.js') }}"></script>
 
 <!-- JQuery Main
 =====================================-->
-<script src="{{ asset('public/assets/js/main/jquery.appear.js') }}"></script>
-<script src="{{ asset('public/assets/js/main/isotope.pkgd.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/main/parallax.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/main/jquery.countTo.js') }}"></script>
-<script src="{{ asset('public/assets/js/main/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/main/jquery.sticky.js') }}"></script>
-<script src="{{ asset('public/assets/js/main/imagesloaded.pkgd.min.js') }}"></script>
-<script src="{{ asset('public/assets/js/main/main.js')}}"></script>
+<script src="{{ asset('assets/js/main/jquery.appear.js') }}"></script>
+<script src="{{ asset('assets/js/main/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/js/main/parallax.min.js') }}"></script>
+<script src="{{ asset('assets/js/main/jquery.countTo.js') }}"></script>
+<script src="{{ asset('assets/js/main/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('assets/js/main/jquery.sticky.js') }}"></script>
+<script src="{{ asset('assets/js/main/imagesloaded.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/js/main/main.js')}}"></script>
 
 </body>
 

@@ -4,7 +4,7 @@
 ===================================== -->
 <div id="pageloader">
     <div class="loader-item">
-        <img src="{{ asset('public/assets/img/other/puff.svg')}}" alt="page loader">
+        <img src="{{ asset('assets/img/other/puff.svg')}}" alt="page loader">
     </div>
 </div>
 
@@ -22,7 +22,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="{{url('/')}}">
-                <img src="{{ asset('public/assets/img/logo/logo-default.png')}}" alt="logo">
+                <img src="{{ asset('assets/img/logo/logo-default.png')}}" alt="logo">
                 Codebag
             </a>
         </div>
