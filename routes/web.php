@@ -24,7 +24,7 @@ Route::group(['middleware' => ['web']], function () {
     ]);
 
     Route::get('/pitch-your-idea', [
-        'uses'=>'FrontEndController@pitch',
+        'uses'=>'FrontEndController@pitchYourIdea',
         'as'=>'/pitch-your-idea'
     ]);
 

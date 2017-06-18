@@ -116,6 +116,54 @@
     </div>
 </div>
 
+<div id="welcome" class="pt75 bg-dark3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="font-size-normal color-light">
+                    <small class="color-pasific alpha10">How It  Works</small>
+                    Solve your problem in 3 easy steps
+                    <small class="heading heading-solid center-block"></small>
+                </h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-6 text-center mb50">
+                <img src="assets/img/app/img-app-2.png" alt="mobile app" class="img-responsive center-block">
+                <h5>
+                </h5>
+                <p>
+                    Pitch your idea to us.
+                </p>
+
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-6 text-center mb50">
+                <img src="assets/img/app/img-app-3.png" alt="mobile app" class="img-responsive center-block">
+                <h5>
+                </h5>
+                <p>
+                    We will get back to you in 3 days and processes will begin.
+                 </p>
+
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-6 text-center mb50">
+                <img src="assets/img/app/img-app-4.png" alt="mobile app" class="img-responsive center-block">
+                <h5>
+                </h5>
+                <p>
+                    Hurray!!! your product is ready.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<br><br>
 <div id="team" class="">
     <div class="container">
         <div class="row">
