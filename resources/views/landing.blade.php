@@ -182,7 +182,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12 mb35">
                 <div class="content-box content-box-o content-box-center">
                     <span class="icon-desktop color-pasific"></span>
-                    <h5>Website Design</h5>
+                    <h5>Web Development</h5>
                     <p>
                         Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.<br><br>
                         <a href="#" class="button button-sm button-pasific hover-ripple-out">Learn More</a>
@@ -194,7 +194,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12 mb35">
                 <div class="content-box content-box-o content-box-center">
                     <span class="icon-mobile color-pasific"></span>
-                    <h5>Mobile Optimzed</h5>
+                    <h5>Mobile App. Development</h5>
                     <p>
                         Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.<br><br>
                         <a href="#" class="button button-sm button-pasific hover-ripple-out">Learn More</a>
@@ -206,7 +206,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12 mb35">
                 <div class="content-box content-box-o content-box-center">
                     <span class="icon-tools color-pasific"></span>
-                    <h5>Easy to Customize</h5>
+                    <h5>Desktop App. Development</h5>
                     <p>
                         Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.<br><br>
                         <a href="#" class="button button-sm button-pasific hover-ripple-out">Learn More</a>
@@ -218,7 +218,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12 mb35">
                 <div class="content-box content-box-o content-box-center">
                     <span class="icon-wallet color-pasific"></span>
-                    <h5>Save Your Money</h5>
+                    <h5>Visuals</h5>
                     <p>
                         Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.<br><br>
                         <a href="#" class="button button-sm button-pasific hover-ripple-out">Learn More</a>
