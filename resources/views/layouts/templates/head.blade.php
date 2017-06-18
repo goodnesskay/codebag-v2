@@ -8,7 +8,7 @@
     <meta name="keywords" content="Codebag, Nigeria, Minimum Viable Product,
      Technology,Software, Web,Mobile, Android, IOS, React, React Native, Progressive Web App">
     <meta charset="utf-8">
-    <meta name="author" content="Harry Boo">
+    <meta name="author" content="Codebag Nigeria">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
@@ -41,18 +41,6 @@
     <link rel="stylesheet" href="{{ asset('assets/css/owl-carousel/owl.theme.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl-carousel/owl.transitions.css')}}">
 
-    <!-- Load Color CSS - Please uncomment to apply the color.
-    =====================================
-    <link rel="stylesheet" href="{{ asset('assets/css/color/blue.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/brown.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/cyan.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/dark.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/green.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/orange.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/purple.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/pink.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/red.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/color/yellow.css')}}">-->
     <link rel="stylesheet" href="{{ asset('assets/css/color/pasific.css')}}">
 
     <!-- Load Fontbase Icons - Please Uncomment to use linea icons

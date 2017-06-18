@@ -18,24 +18,29 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('/home', 'HomeController@index');
 
-    Route::get('/', function () {
-        return view('landing');
-    });
+    Route::get('/', [
+        'uses'=>'FrontEndController@landing',
+        'as'=>'/'
+    ]);
+
+    //contact
+    Route::get('/contact',[
+        'uses'=>'FrontEndController@contact',
+        'as'=>'contact'
+    ]);
 
     //faq
-    Route::get('/faq', function () {
-        return view('faq');
-    });
+    Route::get('/faq',[
+        'uses'=>'FrontEndController@faq',
+        'as'=>'faq'
+    ]);
 
     //404 page
     Route::get('/404', function () {
         return view('404');
     });
 
-    //contact
-    Route::get('/contact', function () {
-        return view('contact');
-    });
+
 
 
 

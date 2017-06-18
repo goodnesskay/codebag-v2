@@ -1,10 +1,8 @@
-@extends('layouts.master-2')
+@extends('layouts.master')
 
 @section('title','Frequently Asked Questions')
 
 @section('content')
-        <!-- Intro Area
-        ===================================== -->
 <div class="pt100 pb100 bg-grad-mojito">
 
     <div class="container">

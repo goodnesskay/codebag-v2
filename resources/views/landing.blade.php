@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title','Build A Minimum Viable Product for your start-up with ease')
+
 @section('content')
 
 <header class="intro pb100" style="background:url(public/assets/img/bg/img-bg-29.pn) 95% 100% no-repeat #e8424a; background-attachment:fixed;">
@@ -35,230 +37,53 @@
 </header>
 
 
-<div id="welcome" class="pt75 bg-dark3">
+<div id="faqs" class="bg-gray pt50 pb20 bt-solid-1">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h1 class="font-size-normal color-light">
-                    <small class="color-pasific alpha10">Welcome to Codebag</small>
-                    We Are Wired By Our Passion To
-                    <small class="heading heading-solid center-block"></small>
-                </h1>
+            <h3 class="text-center mb50">
+                Codebag
+                <small class="heading-desc text-lowercase">
+                    Solving problems through code
+                </small>
+                <small class="heading heading-solid center-block"> </small>
+            </h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 mb30">
+                <p>
+We are team of talented software developers and ... driven with the zeal of solving problems through writing codes.
+                    <br>
+                    We do this by developing top notch software application ranging from web, mobile to desktop. We believe in the
+                    future of technology and that is why we also work on Artificial Intelligence, Virtual Reality, Machine Learning and others.
+                    <br>
+                    We are passionate about start-ups and believe in turning ideas to  startup.
+                </p>
+            </div>
+            <div>
+                <p>
+                    A lot of problem solving start-up ideas die at an early stage due to funding. <br>
+                    A lot of promising start-ups die because of poor technology strength or poor development team
+                    at an early stage.
+                    <br>
+                    Some people think up solutions of problems but are not sure how to test if the idea is valid
+                    and how to turn it to a business.
+                </p>
+
+                <p>
+                    The solution we provide is simple. We help you build your product (Minimum Viable Product) at an affordable
+                    price or at no price cost. We also help scrutinize your idea to know if it is viable and can be turned
+                    into a business.
+                    <br>
+                    We also help young start-ups stabilize their development team.
+                    <br>
+                    Finally, we follow up your start-up until it succeeds providing support for the start-up until
+                    it can stand on its own.
+                </p>
             </div>
         </div>
 
-        <div class="row mt50">
-
-            <!-- item one start -->
-            <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="100">
-                <div class="content-box content-box-center">
-                    <img src="{{ asset('assets/img/flat-icon/briefcase.svg')}}" alt="svg icon" class="img-responsive icon-svg">
-                    <h4 class="color-light">Solve Problems</h4>
-                    <p class="color-light alpha6">We are committed to solving problems through codes.</p>
-
-                </div>
-            </div>
-            <!-- item one end -->
-
-            <!-- item two start -->
-            <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="100">
-                <div class="content-box content-box-center">
-                    <img src="{{ asset('assets/img/flat-icon/close_up_mode.svg') }}" alt="svg icon" class="img-responsive icon-svg">
-                    <h4 class="color-light">Building</h4>
-                    <p class="color-light alpha6">We love to build stuffs that makes people happy.</p>
-
-                </div>
-            </div>
-            <!-- item two end -->
-
-            <!-- item three start -->
-            <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="100">
-                <div class="content-box content-box-center">
-                    <img src="{{ asset('assets/img/flat-icon/engineering.svg') }}" alt="svg icon" class="img-responsive icon-svg">
-                    <h4 class="color-light">Innovation</h4>
-                    <p class="color-light alpha6">Building an innovative technology community is our goal.</p>
-
-                </div>
-            </div>
-            <!-- item three end -->
-        </div>
-        <br><br>
     </div>
-</div>
-
-
-<!-- Service Area
-       ===================================== -->
-<div id="service" class="pt75 pb25">
-    <div class="container">
-
-        <!-- title and short description start -->
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1 class="font-size-normal">
-                    What We Do
-                    <small class="heading heading-solid center-block"></small>
-                </h1>
-            </div>
-
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <p class="lead">
-                    We are unrepentant on our love and enthusiasm to build stuffs with technology.
-                </p>
-            </div>
-        </div>
-        <!-- title and short description end -->
-
-        <!-- service one start -->
-        <div class="row mt75">
-            <div class="col-md-6 animated" data-animation="fadeInLeft" data-animation-delay="100">
-                <img src="{{ asset('assets/img/other/img-other-3.png') }}" alt="website service" class="img-responsive">
-            </div>
-            <div class="col-md-5 animated" data-animation="fadeIn" data-animation-delay="100">
-
-                <h3 class="font-size-normal">
-                    <small class="color-primary">Remote Coding Bootcamp</small>
-                    Web Development. Mobile Development. Desktop Development.
-                </h3>
-
-                <p class="mt20">
-                    We design &amp; develope modern website and app for any type of business. Landing page, ecommerce, company profile, web application, mobile app,
-                    anything that you want to make great success.
-                </p>
-                <p>
-                    <i class="fa fa-android fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-desktop fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-internet-explorer fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-apple fa-2x color-gray2 mr10"></i>
-                </p>
-                <p>
-                    <a class="button-o button-sm button-primary hover-fade">Learn From Us</a>
-                </p>
-            </div>
-        </div>
-        <!-- service one end -->
-
-        <!-- service two start -->
-        <div class="row mt100">
-            <div class="col-md-6 col-md-push-6 animated" data-animation="fadeInRight" data-animation-delay="100">
-                <img src="{{ asset('assets/img/other/img-other-4.png') }}" alt="website service" class="img-responsive">
-            </div>
-            <div class="col-md-5 col-md-pull-5">
-
-                <h3 class="font-size-normal">
-                    <small class="color-success">Software Development</small>
-                    Web Development. Mobile Development. Desktop Development.
-                </h3>
-
-                <p class="mt20 animated" data-animation="fadeIn" data-animation-delay="100">
-                    We design &amp; develope modern website and app for any type of business. Landing page, ecommerce, company profile, web application, mobile app,
-                    anything that you want to make great success.
-                </p>
-                <p>
-                    <i class="fa fa-android fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-apple fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-windows fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-desktop fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-internet-explorer fa-2x color-gray2 mr10"></i>
-                </p>
-                <p>
-                    <a class="button-o button-sm button-success hover-fade">Start Project</a>
-                </p>
-            </div>
-        </div>
-        <!-- service two end -->
-
-        <!-- service three start -->
-        <div class="row mt75">
-            <div class="col-md-6 animated" data-animation="fadeInLeft" data-animation-delay="100">
-                <img src="{{ asset('assets/img/other/img-other-5.jpg') }}" alt="website service" class="img-responsive">
-            </div>
-            <div class="col-md-5">
-
-                <h3 class="font-size-normal">
-                    <small class="color-red">Remote Internship</small>
-                    Data Science. Database System. Web, Mobile &amp; Desktop Development.
-                </h3>
-
-                <p class="mt20 animated" data-animation="fadeIn" data-animation-delay="100">
-                    We design &amp; develope modern website and app for any type of business. Landing page, ecommerce, company profile, web application, mobile app,
-                    anything that you want to make great success.
-                </p>
-                <p>
-                    <i class="fa fa-file-image-o fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-object-ungroup fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-paper-plane-o fa-2x color-gray2 mr10"></i>
-                    <i class="fa fa-camera-retro fa-2x color-gray2 mr10"></i>
-                </p>
-                <p>
-                    <a class="button-o button-sm button-red hover-fade">Inter with us</a>
-                </p>
-            </div>
-        </div>
-        <!-- service three end -->
-
-    </div><!-- container end -->
-</div><!-- section service end -->
-
-
-<div id="price" class="bb-solid-1 bg-dark3 pt75">
-
-    <div class="container pb50">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="pulse" data-animation-delay="300">
-                    <div class="price price-one bg-light">
-                        <div class="price-header">
-                            <h4>Remote</h4>
-                            <span style="font-size:28px;" class="color-pasific">Coding Bootcamp</span>
-                        </div>
-                        <div class="price-body">
-                           <p>
-                               Easy to understand learning platform with active interactive system for easy and faster learning.
-                           </p>
-                        </div>
-                        <div class="price-footer">
-                            <a href="#" class="button button-sm button-rounded button-pasific hover-ripple-out">Learn Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="pulse" data-animation-delay="100">
-                    <div class="price price-one active">
-                        <div class="price-header">
-                            <h4>Get The Best</h4>
-                            <span style="font-size:28px;" class="color-purple">You have a project?</span>
-                        </div>
-                        <div class="price-body">
-                           <p>
-                               You want a professional web, mobile and desktop development? we are here for you.
-                           </p>
-                        </div>
-                        <div class="price-footer">
-                            <a href="#" class="button button-sm button-rounded button-purple hover-ripple-out">Brief us</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12 animated" data-animation="pulse" data-animation-delay="300">
-                    <div class="price price-one bg-light">
-                        <div class="price-header">
-                            <h4>Remote</h4>
-                            <span style="font-size:28px;" class="color-blue">Internship</span>
-                        </div>
-                        <div class="price-body">
-                           <p>
-                               You want to gain more experience in mobile, web and desktop development
-                           </p>
-                        </div>
-                        <div class="price-footer">
-                            <a href="#" class="button button-sm button-rounded button-blue hover-ripple-out">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- col md end -->
-        </div><!-- row end -->
-    </div><!-- container end -->
 </div>
 
 

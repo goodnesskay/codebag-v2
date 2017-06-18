@@ -1,7 +1,5 @@
 <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
 
-<!-- Page Loader
-===================================== -->
 <div id="pageloader">
     <div class="loader-item">
         <img src="{{ asset('assets/img/other/puff.svg')}}" alt="page loader">
@@ -12,9 +10,6 @@
     <i class="fa fa-long-arrow-up"></i>
 </a>
 
-
-<!-- Navigation Area
-===================================== -->
 <nav class="navbar navbar-pasific navbar-mp navbar-standart megamenu navbar-fixed-top" style="border-bottom: 1px solid #eee;">
     <div class="container">
         <div class="navbar-header">
@@ -29,32 +24,14 @@
 
         <div class="navbar-collapse collapse navbar-main-collapse">
             <ul class="nav navbar-nav">
-
-                <li ><a href="{{url('blog')}}" class="dropdown-toggle color-light">Blog </a>
+                <li ><a href="https://medium.com/@codebagng/" class="color-light">Blog </a>
                 </li>
-
-                <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle color-light">Internship</a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="{{url('/codebag-internship')}}"><i class="fa fa-spinner"></i>Internship Overview</a></li>
-                        <li><a href="{{url('/codebag-internship-register')}}"><i class="fa fa-spinner"></i>Join Us</a></li>
-                    </ul>
+                <li><a href="{{url('faq')}}"  class="color-light">FAQ</a>
                 </li>
-
-                <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle color-light">Learn</a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="{{url('/codebag-nation')}}"><i class="fa fa-spinner"></i>Learning Overview</a></li>
-                        <li><a href="{{url('/codebag-nation-register')}}"><i class="fa fa-spinner"></i>Join Us</a></li>
-                    </ul>
+                <li><a href="{{url('contact')}}" class="color-light">Contact</a>
                 </li>
-
-                <li><a href="{{url('faq')}}"  class="dropdown-toggle color-light">FAQ</a>
-                </li>
-
-                <li><a href="{{url('contact')}}" class="dropdown-toggle color-light">Contact</a>
-                </li>
-
             </ul>
-
+            <a class="button button-sm button-pasific hover-ripple-out mt10 mr10" href="">Pitch</a>
         </div>
     </div>
 </nav>

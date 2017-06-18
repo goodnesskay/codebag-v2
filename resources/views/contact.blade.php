@@ -1,4 +1,4 @@
-@extends('layouts.master-2')
+@extends('layouts.master')
 
 @section('title','Get in Touch')
 
@@ -9,20 +9,51 @@
         <div class="row">
             <div class="col-md-12 pt50 text-center">
                 <h1 class="brand-heading font-montserrat text-uppercase color-light" data-in-effect="fadeInDown">Get in Touch.</h1>
-            </div>
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <form class="form-horizontal">
-                    <label class="sr-only" for="inputHelpBlock">Input with help text</label>
-                    <input type="text" id="inputHelpBlock" class="form-control input-circle input-lg no-border text-center">
-                </form>
-
-                <p class="intro-text color-light text-open-sans text-uppercase mt25" data-in-effect="swing">
-                    Quick Response.<br><br>
-                    <a class="button-3d button-pasific button-lg hover-ripple-out animated" data-animation="fadeInUp" data-animation-delay="1200">Submit Ticket</a>
-                </p>
+                <p class="color-light">Please feel free to say anything here. Our staff will reply as soon as possible. Anything!</p>
             </div>
         </div>
 
     </div>
 </div>
+
+<div id="contact" class="pt75 pb75 bt-solid-1">
+    <div class="container">
+        <div class="row mt50">
+            <form name="contactform" id="contactForm" method="post" action="">
+
+                <!-- sender name start -->
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="form-group">
+                        <input type="text" name="senderName" id="senderName" class="input-md input-rounded form-control" placeholder="fullname" maxlength="100" required>
+                    </div>
+                </div>
+                <!-- sender name end -->
+
+                <!-- sender email start -->
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="form-group">
+                        <input type="email" name="senderEmail" id="senderEmail" class="input-md input-rounded form-control" placeholder="email address" maxlength="100" required>
+                    </div>
+                </div>
+                <!-- sender email end -->
+
+                <!-- mobille number start -->
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="form-group">
+                        <input type="tel" name="senderHuman" id="" class="input-md input-rounded form-control" placeholder="Mobile Number" required>
+                    </div>
+                </div>
+                <!-- security check human end -->
+
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                    <textarea class="form-control" name="message" id="message" rows="7" required></textarea>
+                    <button type="submit" name="sendMessage" id="sendMessage" class="button-3d button-md button-pasific hover-ripple-out mt20 center-block">Send Message</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
 @endsection
