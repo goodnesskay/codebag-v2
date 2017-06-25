@@ -28,6 +28,18 @@ Route::group(['middleware' => ['web']], function () {
         'as'=>'/pitch-your-idea'
     ]);
 
+    //portfolio
+    Route::get('/portfolio',[
+        'uses'=>'FrontEndController@portfolio',
+        'as'=>'portfolio'
+    ]);
+
+    //Brief Us
+    Route::get('/brief-us',[
+        'uses'=>'FrontEndController@briefUs',
+        'as'=>'brief-us'
+    ]);
+
     //contact
     Route::get('/contact',[
         'uses'=>'FrontEndController@contact',

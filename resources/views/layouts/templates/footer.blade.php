@@ -4,33 +4,28 @@
         <div class="row">
 
             <div class="col-md-2 col-xs-12 mb25">
-                <div class="navbar-brand-footer center-block">{{ config('app.name') }}</div>
-                <div class="copyright center-block">&copy; <?php echo date('Y'); ?>.{{ config('app.name') }} &trade;</div>
+                <div class="navbar-brand-footer center-block">CodebagNG</div>
+                <div class="copyright center-block">{{ config('app.name') }} &copy; <?php echo date('Y'); ?></div>
             </div>
 
             <div class="col-md-8 col-xs-12 text-center">
                 <div class="row">
                     <div class="col-sm-12">
                         <ul class="bb-solid-1">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Price</a></li>
-                            <li><a href="#">Feature</a></li>
-                            <li><a href="#">Works</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="{{ url('/') }}#the-problem-we-solve">The Problem We Solve</a></li>
+                            <li><a href="{{ url('/') }}#our-solution">Our Solution</a></li>
+                            <li><a href="{{ url('portfolio') }}">Our Works</a></li>
+                            <li><a href="https://medium.com/@codebagng/">Blog</a></li>
+                            <li><a href="{{ url('contact') }}">Contact</a></li>
                         </ul>
                     </div>
 
                     <div class="col-sm-12 mt25">
                         <ul>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#">Knowledgebase</a></li>
-                            <li><a href="#">Term of Service</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">FAQs</a></li>
+                            <li><a href="{{ url('contact') }}">Help Center</a></li>
+                            <li><a href="{{ url('/') }}#what-we-do">What We Do</a></li>
+                            <li><a href="{{ url('pitch-your-idea') }}">Pitch To Us</a></li>
+                            <li><a href="{{ url('faq') }}">FAQs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -39,11 +34,11 @@
             <div class="col-md-2 col-xs-12">
                 <div class="social-container">
                     <ul class="footer-social text-center">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://facebook.com/codebagng"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/codebagng"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com/codebagng"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/codebagng"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://linkedin.com/codebagng"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>

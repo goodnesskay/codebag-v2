@@ -24,14 +24,15 @@
 
         <div class="navbar-collapse collapse navbar-main-collapse">
             <ul class="nav navbar-nav">
-                <li ><a href="https://medium.com/@codebagng/" class="color-light">Blog </a>
+                <li><a href="{{url('portfolio')}}"  class="color-light">Portfolio</a>
                 </li>
-                <li><a href="{{url('faq')}}"  class="color-light">FAQ</a>
+                <li ><a href="https://medium.com/@codebagng/" class="color-light">Blog </a>
                 </li>
                 <li><a href="{{url('contact')}}" class="color-light">Contact</a>
                 </li>
             </ul>
             <a class="button button-sm button-pasific hover-ripple-out mt10 mr10" href="{{ url('pitch-your-idea') }}">Pitch</a>
+            <a class="button button-sm button-primary hover-ripple-out mt10 mr10" href="{{ url('brief-us') }}">Brief Us</a>
         </div>
     </div>
 </nav>
